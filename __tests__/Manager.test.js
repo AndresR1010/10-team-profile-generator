@@ -1,4 +1,4 @@
-/ Import the Manager class
+// Import the Manager class
 const Manager = require("../lib/Manager");
 
 // Tests for the Manager class
@@ -21,10 +21,10 @@ describe("Manager", () => {
   describe("getOfficeNumber", () => {
     it("should return the 'officeNumber' property when called with the 'new' keyword and passed an 'officeNumber' property", () => {
       // Set the values for the arguments to be passed to the class object instance
-      const name = "EazyE";
-      const id = 4;
-      const email = "eazyduzit@g.com";
-      const officeNumber = 64;
+      const name = "Eazy E";
+      const id = 1;
+      const email = "EazyDuzIt.com";
+      const officeNumber = 1;
 
       // Initialize a new Manager object with the arguments that have been passed to it
       const manager = new Manager(name, id, email, officeNumber);
