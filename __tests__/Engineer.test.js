@@ -21,9 +21,9 @@ describe("Engineer", () => {
   describe("getGitHub", () => {
     it("should return the 'gitHub' property when called with the 'new' keyword and passed a 'gitHub' property", () => {
       // Set the values for the arguments to be passed to the class object instance
-      const name = "snoop dogg";
+      const name = "Snoop Dogg";
       const id = 2;
-      const email = "dodouble@g.com";
+      const email = "D0doubleG@gmail.com";
       const gitHub = "DoggPoundRepos";
 
       // Initialize a new Engineer object with the arguments that have been passed to it
