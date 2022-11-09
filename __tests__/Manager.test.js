@@ -23,8 +23,8 @@ describe("Manager", () => {
       // Set the values for the arguments to be passed to the class object instance
       const name = "Eazy E";
       const id = 1;
-      const email = "EazyDuzIt.com";
-      const officeNumber = 1;
+      const email = "EazyDuzIt@gmail.com";
+      const officeNumber = 64;
 
       // Initialize a new Manager object with the arguments that have been passed to it
       const manager = new Manager(name, id, email, officeNumber);
