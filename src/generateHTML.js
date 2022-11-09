@@ -37,7 +37,7 @@ function generateHTML(data, addEmployee) {
   <body>
     <nav class="navbar col-12 p-4">
       <h1 class="text-light text-center col-12 p-4">
-        <span class="fa-solid fa-people-group"></span> My Team Lineup
+        <span class="fa-solid fa-people-group"></span> Team Profile
       </h1>
     </nav>
 
@@ -65,6 +65,15 @@ function generateHTML(data, addEmployee) {
 
   // Switch statement to add the role specific info based on the role chosen for the employee from the inquirer data passed to the function
   switch (data.getRole()) {
+    // If the Manager role was chosen add the office number data
+    case "Manager":
+      cardHTML += `\n              <li class="list-group-item">
+                <span class="fa-solid fa-building"></span> Office Number: ${data.getOfficeNumber()}
+              </li>
+            </ul>
+          </div>
+        </div>`;
+      break;
 
     // If the engineer role was chosen add the GitHub username data and use the username to make a link to their profile
     case "Engineer":
