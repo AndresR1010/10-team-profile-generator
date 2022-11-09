@@ -23,7 +23,7 @@ describe("Intern", () => {
       // Set the values for the arguments to be passed to the class object instance
       const name = "Dre";
       const id = 3;
-      const email = "dr.dre@gmail.com";
+      const email = "Dr.Dre@gmail.com";
       const school = "Compton HS";
 
       // Initialize a new Intern object with the arguments that have been passed to it
